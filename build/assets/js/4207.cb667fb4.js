@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgruppe_2=self.webpackChunkgruppe_2||[]).push([[4207],{4207:(e,p,u)=>{u.r(p)}}]);
