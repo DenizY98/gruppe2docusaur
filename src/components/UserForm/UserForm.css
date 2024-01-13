@@ -1,0 +1,51 @@
+.user-form-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #444; /* Darker border color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
+    background-color: #333; /* Dark background */
+    color: #f8f8f8; /* Light text for contrast */
+  }
+  
+  .user-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-form input[type="text"],
+  .user-form input[type="password"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #555; /* Darker input border */
+    background-color: #444; /* Dark input background */
+    color: #fff; /* Light text color */
+    border-radius: 4px;
+    transition: border-color 0.3s;
+  }
+  
+  .user-form input[type="text"]:focus,
+  .user-form input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff; /* Highlight color on focus */
+  }
+  
+  .user-form p {
+    color: #d9534f; /* Error message color */
+    margin-bottom: 1rem;
+  }
+  
+  .submit-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Button background */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker button background on hover */
+  }

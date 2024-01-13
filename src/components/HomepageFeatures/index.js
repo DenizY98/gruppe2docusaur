@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Zuhause der Zukunft',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Entdecke die unendlichen Möglichkeiten der Vernetzung und Automatisierung in deinem Zuhause. Tritt unserer Community bei und lass dich von den innovativen Ideen und Projekten inspirieren.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Energie der Gemeinschaft',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Erlebe, wie deine Leidenschaft für Smarthome und Balkonkraftwerke eine neue Ära der Energieunabhängigkeit einläutet. Teile deine Erfahrungen und lerne von den Besten.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Smartes Miteinander',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Dein Beitrag zählt! Verbinde dich mit Gleichgesinnten, tausche dich aus und bringe deine Projekte auf die nächste Ebene. Gemeinsam machen wir den Unterschied.
       </>
     ),
   },

@@ -4,12 +4,12 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Community Landkarte',
+  tagline: 'Enter your device sensors and compare your solar plant energy data with others.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -66,9 +66,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'KlicKIT',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -76,11 +76,15 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutorials',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
+
+          { to: '/map', label: 'Map', position: 'left' },
+
+          { to: '/form', label: 'Sensorerfassung', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/DenizY98/gruppe2docusaur',
             label: 'GitHub',
             position: 'right',
           },
@@ -93,8 +97,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tutorials',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Setup',
+                to: '/docs/category/tutorial-%EF%B8%8F-setup--installation-',
+              },
+              {
+                label: 'Umsetzung',
+                to: '/docs/category/umsetzung-%EF%B8%8F-hausautomations-projekte',
               },
             ],
           },
@@ -102,16 +114,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://github.com/DenizY98/gruppe2docusaur',
+                label: 'GitHub',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://yueksel.me',
+                label: 'Wordpress',
               },
             ],
           },
@@ -124,12 +132,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/DenizY98/gruppe2docusaur',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} A WWI2021A - Gruppe2 Project, Inc. Built with Docusaurus and React.`,
       },
       prism: {
         theme: prismThemes.github,
