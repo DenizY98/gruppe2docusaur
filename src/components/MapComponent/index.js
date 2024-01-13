@@ -10,11 +10,12 @@ const MapComponent = () => {
     const importLeaflet = async () => {
       const L = await import('leaflet');
       await import('leaflet/dist/leaflet.css');
-
+      const markerIconUrl = '/img/marker-icon.png';
+      const markerShadowUrl = '/img/marker-shadow.png';
       // Define a custom icon using the local paths
       const customIcon = L.icon({
-        iconUrl: '/img/marker-icon.png',
-        shadowUrl: '/img/marker-shadow.png',
+        iconUrl: markerIconUrl,
+        shadowUrl: markerShadowUrl,
         iconSize: [25, 41],
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
