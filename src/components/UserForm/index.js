@@ -45,7 +45,7 @@ const UserForm = () => {
       return; // Stop submission if validation fails
     }
     try {
-      const response = await fetch('http://localhost:3001/api/users', {
+      const response = await fetch('https://api.yueksel.me/api/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

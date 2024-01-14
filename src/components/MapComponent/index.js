@@ -58,7 +58,7 @@ const MapComponent = () => {
   // Function to fetch markers data from the backend
   const fetchMarkersData = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/markers');
+      const response = await fetch('https://api.yueksel.me/api/markers');
       const data = await response.json();
       return data;
     } catch (error) {

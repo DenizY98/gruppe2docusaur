@@ -1,0 +1,88 @@
+.user-config-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  border: 1px solid #444; /* Darker border color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
+  background-color: #333; /* Dark background */
+  color: #f8f8f8; /* Light text for contrast */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-config-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-config-form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #555; /* Darker input border */
+  background-color: #444; /* Dark input background */
+  color: #fff; /* Light text color */
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.user-config-form select:focus {
+  outline: none;
+  border-color: #007bff; /* Highlight color on focus */
+}
+
+.user-config-form input[type="text"],
+.user-config-form input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #555; /* Darker input border */
+  background-color: #444; /* Dark input background */
+  color: #fff; /* Light text color */
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.user-config-form input[type="text"]:focus,
+.user-config-form input[type="password"]:focus {
+  outline: none;
+  border-color: #007bff; /* Highlight color on focus */
+}
+
+.user-config-form .update-button,
+.user-config-form .delete-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Button background */
+  color: #fff; /* Button text color */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.user-config-form .update-button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.user-config-form .delete-button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: #f44336;
+  color: white;
+}
+
+.user-config-form p {
+  color: #d9534f; /* Error message color */
+  margin-bottom: 1rem;
+}

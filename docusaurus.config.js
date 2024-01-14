@@ -83,6 +83,7 @@ const config = {
           { to: '/map', label: 'Map', position: 'left' },
 
           { to: '/form', label: 'Sensorerfassung', position: 'left' },
+          { to: '/config', label: 'Konfiguration', position: 'left' },
           {
             href: 'https://github.com/DenizY98/gruppe2docusaur',
             label: 'GitHub',
