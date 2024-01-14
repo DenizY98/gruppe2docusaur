@@ -1,47 +1,12 @@
 ---
 sidebar_position: 1
 ---
-
 # Einführung - Projektvorstellung
+## Herzlich willkommen bei unserem Smart Home Automation Projekt! 
+<img src="/img/logo_gross.png" alt="Logo" width="400"/>
 
-Let's discover **Docusaurus in less than 5 minutes**.
-
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Wir, Gruppe2 aus dem Kurs WWI2021a, sind begeistert davon, Ihnen das Heim der Zukunft näherzubringen. 
+Unser Projekt integriert nahtlos WordPress, MariaDB und Leaflet, um eine innovative und benutzerfreundliche Plattform zu schaffen. 
+Mit dieser Kombination bieten wir eine leistungsstarke Lösung für die Verwaltung und Visualisierung von Smart Home-Daten. 
+Treten Sie ein in eine Welt, in der Komfort und Technologie Hand in Hand gehen, und erleben Sie, wie wir die Art und Weise, wie Sie mit Ihrem Zuhause interagieren, revolutionieren. 
+Lassen Sie uns gemeinsam die Möglichkeiten der Heimautomatisierung erkunden und gestalten!
