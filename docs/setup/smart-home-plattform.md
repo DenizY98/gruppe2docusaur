@@ -4,31 +4,10 @@ sidebar_position: 3
 
 # 3.3 Smart-Home-Plattform
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
-
-## Create your first Post
-
-Create a file at `blog/2021-02-28-greetings.md`:
-
-```md title="blog/2021-02-28-greetings.md"
----
-slug: greetings
-title: Greetings!
-authors:
-  - name: Joel Marcey
-    title: Co-creator of Docusaurus 1
-    url: https://github.com/JoelMarcey
-    image_url: https://github.com/JoelMarcey.png
-  - name: Sébastien Lorber
-    title: Docusaurus maintainer
-    url: https://sebastienlorber.com
-    image_url: https://github.com/slorber.png
-tags: [greetings]
----
-
-Congratulations, you have made your first post!
-
-Feel free to play around and edit this post as much you like.
-```
-
-A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).
+<img src="/img/addons.png" alt="Addons" width="1000"/>
+- **Advanced SSH & Web Terminal**: Ermöglicht den Fernzugriff auf den Home Assistant über eine sichere Shell (SSH) und bietet ein webbasiertes Terminal, um Befehle direkt im Browser auszuführen.
+- **File editor**: Ein einfacher Texteditor, der in Home Assistant integriert ist und das Bearbeiten von Konfigurationsdateien direkt über die Benutzeroberfläche ermöglicht.
+- **Google Drive Backup**: Ein Add-on, das automatische Backups von Home Assistant erstellt und diese auf Google Drive hochlädt, um eine zusätzliche Sicherheitsebene für die Daten zu bieten.
+- **MariaDB**: Eine leistungsstarke Datenbankverwaltungssoftware, die als Add-on verfügbar ist und besser für die Langzeit-Speicherung von Home Assistant-Daten verwendet werden kann.
+- **phpMyAdmin**: Ein webbasiertes Tool zur Verwaltung von MariaDB-Datenbanken, das die Durchführung von Datenbankoperationen über eine benutzerfreundliche Oberfläche ermöglicht.
+- **Tailscale**: Ein Add-on, das ein Zero-Trust-Netzwerk auf Basis von WireGuard einrichtet, um eine sichere und einfache Verbindung zwischen HomeAssistant und Entwickler herzustellen.

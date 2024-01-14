@@ -4,54 +4,12 @@ sidebar_position: 2
 
 # 3.2 Sicherungskonzept
 
-Documents are **groups of pages** connected through:
+Das Sicherungskonzept für Home Assistant umfasst die Verwendung der integrierten Backup-Funktion sowie die Erweiterung durch das Addon [Homeassistant Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup). Hier sind die Schritte, um dieses Konzept umzusetzen:
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+1. Gehen Sie im Home Assistant zu **Add-ons** und dann zum **Add-on Store**.
+2. Suchen Sie nach dem Addon **Home Assistant Google Drive Backup**.
+3. Installieren Sie das Addon und starten Sie es.
+4. Aktivieren Sie den **Watchdog**, damit das Addon automatisch neu gestartet wird, falls es abstürzt.
 
-## Create your first Doc
-
-Create a Markdown file at `docs/hello.md`:
-
-```md title="docs/hello.md"
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
-
-## Configure the Sidebar
-
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
-
-Add metadata to customize the sidebar label and position:
-
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
-
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```
+Durch diese Schritte werden lokale Backups automatisch auch in Google Drive gespeichert. Im Falle eines Totalausfalls der SD-Karte bleiben Ihre Konfigurationen und Automatisierungen erhalten. Dies bietet eine zusätzliche Sicherheitsebene für Ihr System.
+Bitte beachten Sie, dass für diesen Schritt ein Google Account mit aktivierter [Drive Cloud](https://drive.google.com/drive/u/0/my-drive) vorhanden sein muss.

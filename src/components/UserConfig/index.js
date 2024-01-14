@@ -162,8 +162,10 @@ const UserConfig = () => {
                 <input type="text" name="sensors" placeholder="Sensors" value={userData.sensors} onChange={handleChange} required />
                 {formErrors.sensors && <p>{formErrors.sensors}</p>}
                 <input type="password" name="password" placeholder="New Password" value={password} onChange={handlePasswordChange} />
-                <button type="submit" className="update-button">Update</button>
-                <button type="button" onClick={handleDelete} className="delete-button">Delete</button>
+                <div className="button-container">
+                    <button type="submit" className="update-button">Update</button>
+                    <button type="button" onClick={handleDelete} className="delete-button">Delete</button>
+                </div>
             </form>
         </div>
     );

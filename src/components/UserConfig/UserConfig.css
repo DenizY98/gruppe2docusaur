@@ -1,7 +1,7 @@
 .user-config-container {
   max-width: 600px;
   margin: 2rem auto;
-  padding: 2.5rem;
+  padding: 2rem;
   border: 1px solid #444; /* Darker border color */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
@@ -21,8 +21,6 @@
 
 .user-config-form select {
   width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
   border: 1px solid #555; /* Darker input border */
   background-color: #444; /* Dark input background */
   color: #fff; /* Light text color */
@@ -35,13 +33,28 @@
   outline: none;
   border-color: #007bff; /* Highlight color on focus */
 }
+.user-config-form select + input[type="text"] {
+  margin-top: 4rem; /* Adjust the value as needed for more space */
+}
 
+/* Container for the buttons */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Style for individual buttons */
+.button-container button {
+  flex: 1; /* Each button will take up equal space */
+  margin: 0.5rem; /* Adjust the value as needed */
+}
 .user-config-form input[type="text"],
 .user-config-form input[type="password"] {
   width: 100%;
   padding: 0.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
   border: 1px solid #555; /* Darker input border */
   background-color: #444; /* Dark input background */
   color: #fff; /* Light text color */
@@ -69,15 +82,15 @@
 }
 
 .user-config-form .update-button {
-  padding: 0.5rem;
-  margin: 0.5rem;
+  padding: 0.5 1rem;
+  margin-top: 1rem;
   background-color: #4CAF50;
   color: white;
 }
 
 .user-config-form .delete-button {
-  padding: 0.5rem;
-  margin: 0.5rem;
+  padding: 0.5 1rem;
+  margin-top: 1rem;
   background-color: #f44336;
   color: white;
 }
