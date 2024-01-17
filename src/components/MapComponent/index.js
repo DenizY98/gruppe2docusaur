@@ -38,7 +38,7 @@ const MapComponent = () => {
         let popupContent = `<strong>${homename}</strong><br>`;
         sensors.forEach(sensor => {
           if (sensor.sensordata) { // Check if sensor data is available
-            popupContent += `${sensor.sensorName}: ${sensor.sensordata}<br>`;
+            popupContent += `${sensor.sensorName}: ${sensor.sensordata} ${sensor.unit}<br>`;
           }
         });
         markerInfo.bindPopup(popupContent);
