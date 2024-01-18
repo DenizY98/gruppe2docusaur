@@ -112,7 +112,7 @@ Für das Wochenende, also Samstag und Sonntag, gilt durchgehend von 00:00 Uhr bi
 **Kombi-Sparmodus:** Dieser Modus stellt eine Kombination aus dem dritten Modus und der Nutzung von selbst erzeugtem Strom dar. In diesem Modus wird der Boiler nicht nur während der ausgewählten Tarifzeiten, sondern auch bei Überschreitung eines Schwellenwertes von über 400 Watt für den selbst erzeugten Strom eingeschaltet. Der Wert der aktuellen Stromerzeugung soll alle fünf Minuten überprüft werden.
 
 
-Neben diesen vier Modi ist auch die Entwicklung und Implementierung eines Konzepts für die Kombination von Infrarotheizung und Warmwasserboiler vorgesehen. Im Hinblick auf den selbst erzeugten Strom wird die Infrarotheizung mit Priorität 1 und der Warmwasserboiler mit Priorität 2 behandelt. 
+Neben diesen vier Modi ist auch die Entwicklung und Implementierung eines Konzepts für die Kombination von Infrarotheizung und Warmwasserboiler vorgesehen. Im Hinblick auf den selbst erzeugten Strom wird die Infrarotheizung mit Priorität 1 und der Warmwasserboiler mit Priorität 2 behandelt. Nach Absprache mit dem Auftragsgeber soll es auch einen Sommermodus geben, in welchem nicht geheizt werden muss, sodass diese Prioritätenreihenfolge umgekehrt werden kann und der Warmwasserboiler Priorität 1 bekommt.
 
 Zudem ist vorgesehen, die Werte des selbst erzeugten Stroms auf der Oberfläche der Hausautomation darzustellen. Folgende Daten sollen hierbei visualisiert werden.
 
