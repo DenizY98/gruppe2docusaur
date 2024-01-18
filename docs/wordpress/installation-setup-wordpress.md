@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Um einen WordPress-Server auf der [Google Cloud Platform](https://console.cloud.google.com) einzurichten, wird vorausgesetzt, dass Sie über einen Google Cloud Console Account mit kostenlosem Startguthaben verfügen. Hier sind die Schritte zur Einrichtung:
 
-1. **Account erstellen**: Erstellen Sie einen Google Cloud Console Account und hinterlegen Sie eine Kreditkarte (eine virtuelle Kreditkarte bspw. erstellt mit Revolut funktioniert ebenfalls) für das kostenlose 300$-Startguthaben.
+1. **Account erstellen**: Erstellen Sie einen [Google Cloud](https://support.google.com/accounts/answer/27441?hl=en/) Console Account und hinterlegen Sie eine Kreditkarte (eine virtuelle Kreditkarte bspw. erstellt mit Revolut funktioniert ebenfalls) für das kostenlose 300$-Startguthaben.
 
 2. **Cloud Console Market Place**: Gehen Sie zum Cloud Console Market Place und suchen Sie nach "WordPress".
 

@@ -3,86 +3,15 @@ sidebar_position: 2
 ---
 
 # 3.4.2 Realitätsnahere Umsetzung 
+## Verwendete Shelly: 2x Plus 1PM 
+1. **Installation der Shelly Geräte**: Installieren Sie den ersten Shelly 1PM Plus in der Steckdose, in der das Balkonkraftwerk eingesteckt ist. Installieren Sie den zweiten Shelly 1PM Plus in der Steckdose, in der die Infrarotheizung eingesteckt ist.
 
-Let's translate `docs/intro.md` to French.
+2. **Messung des Stromertrags**: Der erste Shelly 1PM Plus misst den vom Balkonkraftwerk erzeugten Strom.
 
-## Configure i18n
+3. **Steuerung der Infrarotheizung**: Der erste Shelly 1PM Plus sendet ein Signal an den zweiten Shelly 1PM Plus, um die Infrarotheizung ein- bzw. auszuschalten, basierend auf dem gemessenen Stromertrag.
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
+Für die Umsetzung der Shelly-to-Shelly Kommunikation gibt es zwei Möglichkeiten:
 
-```js title="docusaurus.config.js"
-export default {
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-  },
-};
-```
+- **Direkte Kommunikation über die Shelly-Cloud**: Sie können das [Shelly-Webfrontend](https://control.shelly.cloud/#) verwenden, um die Kommunikation zwischen den beiden Shelly-Geräten zu ermöglichen. Im Webfrontend können Sie die gewünschten Aktionen und Schalter auch manuell bedienen.
 
-## Translate a doc
-
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
-
-```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
-
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
-```
-
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
-
-## Start your localized site
-
-Start your site on the French locale:
-
-```bash
-npm run start -- --locale fr
-```
-
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
-
-:::caution
-
-In development, you can only use one locale at a time.
-
-:::
-
-## Add a Locale Dropdown
-
-To navigate seamlessly across languages, add a locale dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'localeDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The locale dropdown now appears in your navbar:
-
-![Locale Dropdown](./img/localeDropdown.png)
-
-## Build your localized site
-
-Build your site for a specific locale:
-
-```bash
-npm run build -- --locale fr
-```
-
-Or build your site to include all the locales at once:
-
-```bash
-npm run build
-```
+- **Kommunikation über die Smart-Home-Plattform**: Wenn Sie eine [Smart-Home-Plattform](http://homeassistant.local) verwenden, können Sie die Shelly-Geräte in Ihre Plattform integrieren und die gewünschten Aktionen dort definieren. Die Plattform ermöglicht eine zentralisierte Steuerung und Überwachung aller Ihrer Smart-Home-Geräte.
