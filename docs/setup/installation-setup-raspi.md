@@ -13,7 +13,7 @@ Hier sind die Schritte, um die SD-Karte für den Raspberry Pi mit dem ["Raspberr
 <img src="/img/os.png" alt="OS" width="800"/>
 2. Unter dem Reiter **Dienste** aktivieren Sie **SSH** und speichern Sie die Änderungen.
 3. Geben Sie die initialen Zugangsdaten ein: **Benutzername** (unix-user) `admin` und **Passwort** `admin`.
-<img src="/img/image.png" alt="RaspiImager" width="300"/>
+<img src="/img/buimage.png" alt="RaspiImager" width="300"/>
 4. Klicken Sie auf den Button **Weiter** und bestätigen Sie den Flashvorgang.
 5. ☕ bis der Vorgang abgeschlossen und verifiziert wurde.
 
