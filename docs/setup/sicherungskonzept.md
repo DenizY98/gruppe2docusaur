@@ -10,6 +10,7 @@ Das Sicherungskonzept für Home Assistant umfasst die Verwendung der integrierte
 2. Suchen Sie nach dem Addon **Home Assistant Google Drive Backup**.
 3. Installieren Sie das Addon und starten Sie es.
 4. Aktivieren Sie den **Watchdog**, damit das Addon automatisch neu gestartet wird, falls es abstürzt.
-
+5. Konfigurieren Sie das BackUp ganz individuell nach ihren Wünschen. Wir empfehlen täglich, um den entstandenen Schaden möglichst gering zu halten.
+<img src="/img/backups.png" alt="BackUps" width="1000"/>
 Durch diese Schritte werden lokale Backups automatisch auch in Google Drive gespeichert. Im Falle eines Totalausfalls der SD-Karte bleiben Ihre Konfigurationen und Automatisierungen erhalten. Dies bietet eine zusätzliche Sicherheitsebene für Ihr System.
 Bitte beachten Sie, dass für diesen Schritt ein Google Account mit aktivierter [Drive Cloud](https://drive.google.com/drive/u/0/my-drive) vorhanden sein muss.

@@ -1,11 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Einführung - Projektvorstellung
-## Herzlich willkommen bei unserem Smart Home Automation Projekt! 
-<img src="/img/logo_gross.png" alt="Logo" width="400"/>
-
-# Projektdokumentation
+# Projektdokumentation 
 ## Einleitung
 ### 1. Problem- und Aufgabenstellung
 Das zugrunde liegende Problem, das das Smart-Home-Projekt adressiert, besteht aus verschiedenen Herausforderungen im Bereich der Hausautomatisierung. Eine geeignete Smart-Home-Plattform soll ausgewählt und auf einem vom Auftraggeber, Herrn Osburg, bereitgestellten Raspberry Pi installiert werden. Die spezifische Aufgabe umfasst die Realisierung verschiedener Szenarien für die Nutzung des von einem Balkonkraftwerk erzeugten Stroms mittels eines vom Auftraggeber bereitgestellten Shelly 2.5 PM. Eine Visualisierung des erzeugten Stroms auf der Benutzeroberfläche der Smart-Home-Plattform ist ebenfalls vorgesehen. Zusätzlich sollen die Daten zum Stromertrag auf einer öffentlichen Website zugänglich gemacht werden. Darüber hinaus soll auf dieser Website ebenfalls eine Community-Plattform entstehen, in welcher Nutzer die Möglichkeit haben die Daten ihres Balkonkraftwerkes der Öffentlichkeit auf einer zentralen Google Karte zu präsentieren.
@@ -24,7 +20,7 @@ Der Initiator dieses Projekts ist Herr Osburg, der sowohl als Auftraggeber als a
 
 Für die Zielereeichung ist eine gut aufgeteilte Projektorganisation erforderlich, welche dem nachfolgenden Organigramm entnommen werden kann. 
 
-BILD
+<img src="/img/Organigramm.png" alt="Organigramm" width="750"/>
 
 Um eine effiziente Rollenverteilung für die weitere Projektbearbeitung zu gewährleisten, wurden die Präferenzen und Vorkenntnisse aller Gruppenmitglieder berücksichtigt. Hieraus resultieren die drei folgenden, im obigen Organigramm dargestellten, Rollen/Projektteams.
 
@@ -35,7 +31,7 @@ Um eine effiziente Rollenverteilung für die weitere Projektbearbeitung zu gewä
 ### 4. Logo und Firmenname
 Um die Anforderungen zu erfüllen und umzusetzen, gründete die Projektgruppe das fiktive Unternehmen **"KlicKIT"**. Die Teammitglieder entwickelten nachfolgendes Logo, welches dem Namen des Unternehmens entspricht.
 
-BILD
+<img src="/img/Logo Entwurf.png" alt="Logo Entwurf" width="750"/>
 
 Ein Projektplan, welcher alle wesentlichen Aufgaben und Anforderungen enthält, wurde von der Projektleitung zu Beginn des Projektes erstellt. Dieser Plan dient als zeitlicher und inhaltlicher Leitfaden für den Fortschritt des Projektes und besteht aus einer Anforderunganalyse, einer Risikoanalyse und einer Zeiterfassung aller Mitarbeitenden.
 
@@ -44,15 +40,11 @@ Der Projektplan setzt sich aus den folgenden drei Teilen, welche in den nachfolg
 
 **Anforderungsanalyse:**: Zu Beginn des Projektes wurden die Aufgaben von der Projektleitung in Zusammenarbeit mit dem Entwicklungsteam in spezifische Unteraufgaben zerlegt. Diese einzelnen Aufgabenpakete wurden anschließend in einer Anforderungsanalyse in Form einer Exceltabelle festgehalten, welche über einen Tauschordner anschließend dem ganzen Projektteam zugänglich gemacht wurden. In der Anforderungsanalyse wurde für jede Anforderung zusätzlich der Zweck und das Bedürfnis fesgehalten, welche mit dieser bedient werden sollen, sowie der aktuelle Entwicklungsstatus der Anforderung. 
 
-BILD
+<img src="/img/Anforderungsanalyse.png" alt="Anforderungsanalyse" width="1000"/>
 
 **Zeiterfassung:** Bei der Zeiterfassung wurde für jeden Arbeitsschritt die bearbeitende Person, sowie eine Zeitaufwandsschätzung und den Ist-Aufwand des bearbeitenden Mitarbeiters. Auch kann der Zeiterfassung die kommulierte Arbeitszeit pro Mitarbeiter entnommen werden.
 
-BILD
-
 **Risikoanalyse:** Sämtliche potenziellen Risiken des Projektes wurden in einer Risikoanalyse hinsichtlich ihrer Eintrittswahrscheinlichkeiten und ihrer Auswirkungen aufgelistet. Auch geht aus der Risikoanalyse die erforderlichen Schritte nach dem Eintritt eines Risikos hervor.
-
-BILD
 
 ### 6. Verwendete Tools
 #### 6.1 Rapberry Pi
@@ -160,9 +152,9 @@ Zu Beginn des Projekts wurden die initial sichtbaren Arbeitsschritte basierend a
 
 Während der Projektlaufzeit wurden die Arbeitsschritte in diesen Kategorien stetig erweitert und verfeinert. Die Projektmitarbeiter wählten auf Grundlage dieser Einteilung passende Arbeitsschritte und Aufgaben aus und verzeichneten ihren Namen in der entsprechenden Spalte, zusammen mit ihrer Schätzung des Arbeitsaufwands. Sobald eine Aufgabe abgeschlossen war, wurde der tatsächliche Aufwand erfasst. In einer separaten Spalte konnte so der geschätzte Aufwand der Beteiligten dem tatsächlichen Aufwand gegenübergestellt werden, um eine gleichmäßige Arbeitsbelastung sicherzustellen. Nachfolgend ist eine Abbildung der Exceltabelle "Projektnachverfolgung" zu sehen.
 
-BILD
+<img src="/img/Aufwandschätzung.png" alt="Aufwandschätzung" width="400"/>
 
 ### 9. Projektrisiken
 Um ein tiefgreifendes Verständnis der Risiken des Smart-Home-Projekts zu erlangen und adäquate Reaktionsmaßnahmen zu ermöglichen, wurden potenzielle Projektrisiken mittels einer Excel-Tabelle systematisch erfasst und einer eingehenden Analyse unterzogen. Im Anschluss daran wurden die Risiken gemäß den Leitlinien des Risikomanagements des Bundesamts für Sicherheit in der Informationstechnik (BSI) hinsichtlich ihrer Eintrittswahrscheinlichkeit und potenziellen Auswirkungen auf einer Skala von 1 bis 5 bewertet. In einer separaten Spalte wurde dokumentiert, welche Strategien zur Risikobewältigung angewendet werden sollten und welche Maßnahmen dafür erforderlich sind. 
 
-BILD
+<img src="/img/Risikoanalyse.png" alt="Risikoanalyse" width="1000"/>
