@@ -3,7 +3,8 @@ sidebar_position: 5
 ---
 
 # 3.4.5 Optimierter Wasserboiler
-## Verwendete Shelly: 2x Plus 1PM 
+## Verwendete Shelly: 2x Plus 1PM
+<img src="/img/shelly1pm.png" alt="ShellyPlus1PM" width="150"/>
 **1. Manuelle Steuerung des Warmwasserboilers über den Shelly 1PM Plus:**
    - Installieren Sie die Shelly/HomeAssistant-App auf Ihrem Smartphone.
    - Verbinden Sie den Shelly 1PM Plus mit Ihrem Warmwasserboiler gemäß der Anleitung des Herstellers.

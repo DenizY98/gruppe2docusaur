@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# 3.6 API-Database Connector
+# API-Database Connector
 
 Eine API (Application Programming Interface) ist notwendig, um eine sichere und effiziente Kommunikation zwischen einer Frontend-Seite und einer Datenbank zu ermöglichen. Sie dient als Vermittler, der Anfragen entgegennimmt, verarbeitet und die entsprechenden Daten zurücksendet, ohne dass das Frontend direkten Zugriff auf die Datenbank hat. Dies schützt die Datenbank vor unautorisierten Zugriffen und ermöglicht es Entwicklern, spezifische Datenzugriffsregeln und -logik zu implementieren.
 

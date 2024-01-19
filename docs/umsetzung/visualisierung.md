@@ -3,10 +3,9 @@ sidebar_position: 7
 ---
 
 # 3.4.7 Visualisierung
+<img src="/img/interval.png" alt="strom" width="600"/>
 
 1. **Visualisierung der Daten für den selbst erzeugten Strom:**
-
-<img src="/img/interval.png" alt="strom" width="600"/>
     1. Aktuell produzierter Strom (Aktualisierungsintervall konfigurierbar 1 Minute)
     2. Aktueller Tag
     3. Vorhergehender Tag

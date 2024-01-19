@@ -4,6 +4,7 @@ sidebar_position: 2
 
 # 3.4.2 Realitätsnahere Umsetzung 
 ## Verwendete Shelly: 2x Plus 1PM 
+<img src="/img/shelly1pm.png" alt="ShellyPlus1PM" width="150"/>
 1. **Installation der Shelly Geräte**: Installieren Sie den ersten Shelly 1PM Plus in der Steckdose, in der das Balkonkraftwerk eingesteckt ist. Installieren Sie den zweiten Shelly 1PM Plus in der Steckdose, in der die Infrarotheizung eingesteckt ist.
 
 2. **Messung des Stromertrags**: Der erste Shelly 1PM Plus misst den vom Balkonkraftwerk erzeugten Strom.

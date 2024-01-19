@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 3.6 Übersichts-Landkarte als Community-Plattform
+# Übersichts-Landkarte als Community-Plattform
 
 Leaflet ist eine leichte, Open-Source-JavaScript-Bibliothek zur Kartenerstellung, die sich gut in React-Anwendungen integrieren lässt. Sie bietet eine React-freundliche API für das Rendern von Karten, Markern, Popups und anderen kartenbezogenen Komponenten. Die Integration von Leaflet in React ermöglicht es Entwicklern, interaktive Karten mit weniger Aufwand und ohne die Notwendigkeit einer umfangreichen Konfiguration zu erstellen.
 

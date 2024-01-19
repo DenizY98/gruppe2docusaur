@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 3.5.2 Elementor und Code-Snippets Plugins
+# Elementor und Code-Snippets Plugins
 
 ### Elementor
 1. Loggen Sie sich in Ihr WordPress-Dashboard ein.

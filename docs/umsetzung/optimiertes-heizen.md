@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # 3.4.3 Optimiertes Heizen ☀️&IR 
 ## Verwendete Shelly: 2.5PM 
-
+<img src="/img/shelly25.png" alt="Shelly2.5PM" width="150"/>
 1. **Temperaturabhängigkeit**: Zusätzlich zur Automation aus [3.4.1](/docs/umsetzung/smarte-ir-heizung) wird das Heizen auch von der aktuellen Zimmertemperatur abhängig gemacht. Die durch die Temperatursensoren gemessenen Werte können auf der angegebenen Internetseite abgerufen werden. Verwendet wurde der Sensor "Hobbyraum" für die aktuelle Zimmertemperatur.
 
 2. **Erweiterte Steuerung**: Bei dem optimierten Heizen wird die Steuerung zusätzlich zum erzeugten Strom um die konfigurierbare Zimmertemperatur sowie Luftfeuchtigkeit erweitert. Hier können durch den Benutzer Schwellwerte über die Smart-Home-Plattform konfiguriert werden.

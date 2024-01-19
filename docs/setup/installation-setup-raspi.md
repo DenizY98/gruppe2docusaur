@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-# 3.1 Raspi 3
-
+# 3.1 Raspberry Pi Model 3B+
+<img src="/img/pi3.png" alt="Raspi3" width="300"/>
 Hier sind die Schritte, um die MicroSD-Karte für den Raspberry Pi mit dem ["Raspberry Pi Imager"](https://www.raspberrypi.com/software/) zu flashen und die Einstellungen entsprechend anzupassen:
 
 
@@ -44,7 +44,7 @@ Sobald der Raspberry Pi antwortet:
 12. Öffnen Sie ein Terminal und geben Sie den Befehl `passwd` ein, um das Passwort zu ändern. Sie werden aufgefordert, das neue Passwort zweimal einzugeben.
 13. Sichern Sie den **root**-Benutzer, indem Sie `sudo passwd` eingeben und das Passwort zweimal bestätigen.
 
-Verwenden Sie ein starkes Passwort, das nicht leicht zu erraten ist, wie z.B. `WWI2021a!?`, um die Sicherheit zu erhöhen.
+Verwenden Sie ein **starkes Passwort**, das nicht leicht zu erraten ist, wie z.B. `WWI2021a!?`, um die Sicherheit zu erhöhen.
 
 Nachdem Sie das Passwort geändert haben, können Sie sich mit dem neuen Passwort anmelden und Home Assistant testen. Viel Spaß beim Ausprobieren und Entdecken der Funktionen von Home Assistant!!
 

@@ -4,6 +4,7 @@ sidebar_position: 1
 
 # 3.4.1 Smarte IR-Heizung
 ## Verwendete Shelly: 2.5PM 
+<img src="/img/shelly25.png" alt="Shelly2.5PM" width="150"/>
 ### **Periodische Überprüfung**
 Alle 5 Minuten wird überprüft, ob das Balkonkraftwerk Strom erzeugt. Dies geschieht über Shelly Kanal 1.
 
