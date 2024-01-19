@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 3.1 Raspberry Pi Model 3B+
+# Raspberry Pi Model 3B+
 <img src="/img/pi3.png" alt="Raspi3" width="300"/>
 Hier sind die Schritte, um die MicroSD-Karte für den Raspberry Pi mit dem ["Raspberry Pi Imager"](https://www.raspberrypi.com/software/) zu flashen und die Einstellungen entsprechend anzupassen:
 
@@ -33,10 +33,10 @@ Sobald der Raspberry Pi antwortet:
 9. Verbinden Sie einen Monitor mit dem Raspberry Pi und warten Sie auf den Anmeldebildschirm oder öffnen Sie einen Browser und geben Sie die URI `homeassistant.local:8123` ein. Alternativ können Sie auch einen Monitor an den Pi anschließen und auf folgenden Bildschirm warten: 
 <img src="/img/cli.png" alt="HassioCLI" width="400"/>
 
-10. Importieren Sie das bereitgestellte Backup.
+10. Importieren Sie das bereitgestellte Backup oder laden Sie das aktuellste .tar Archiv aus der [Google Drive Cloud](https://drive.google.com/drive) herunter.
 <img src="/img/restore.gif" alt="HomeAssistantRestore" width="500"/>
 
-11. Melden Sie sich mit dem Passwort `admin` an.
+11. Melden Sie sich mit dem User `admin` und dem Passwort `WWI2021a` an.
 
 <img src="/img/ui.png" alt="HassioUI" width="400"/>
 **Wichtig**: Ändern Sie das Passwort sofort nach der ersten Anmeldung:

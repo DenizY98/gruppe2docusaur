@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 3.2 Sicherungskonzept
+# Sicherungskonzept
 
 Das Sicherungskonzept für Home Assistant umfasst die Verwendung der integrierten Backup-Funktion sowie die Erweiterung durch das Addon [Homeassistant Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup). Hier sind die Schritte, um dieses Konzept umzusetzen:
 

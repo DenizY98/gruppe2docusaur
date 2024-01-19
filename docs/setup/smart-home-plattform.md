@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 3.3 Smart-Home-Plattform
+# HomeAssistant & Add-Ons
 
 <img src="/img/addons.png" alt="Addons" width="1000"/>
 - **Advanced SSH & Web Terminal**: Ermöglicht den Fernzugriff auf den Home Assistant über eine sichere Shell (SSH) und bietet ein webbasiertes Terminal, um Befehle direkt im Browser auszuführen.

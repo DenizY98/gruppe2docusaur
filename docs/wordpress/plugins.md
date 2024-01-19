@@ -2,7 +2,16 @@
 sidebar_position: 2
 ---
 
-# Elementor und Code-Snippets Plugins
+# Wordpress Plugins
+
+### All-in-One WP Migration
+1. Dieses Plugin erspart Ihnen die Einrichtung und Konfiguration der KlicKIT Wordpress-Website.
+2. Laden Sie hierfür das bereitgestellte BackUp als .wpress-Datei runter.
+3. Melden Sie sich im Wordpress Backend an und wählen Sie nach Installation des Plugins: **IMPORT**
+<img src="/img/allin1.png" alt="Allin1Migration" width="200"/>
+
+4. Klicken Sie auf **Import from**, dann **File** und laden Sie das erwähnte Backup hoch.
+
 
 ### Elementor
 1. Loggen Sie sich in Ihr WordPress-Dashboard ein.
