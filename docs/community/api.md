@@ -28,6 +28,20 @@ Hier sind die Schritte, um die API von `gruppe2api` zu klonen und einzurichten:
    ```
 6. Speichern Sie die `.env`-Datei.
 7. Führen Sie `npm install` aus, um die notwendigen Abhängigkeiten zu installieren.
-8. Starten Sie die API mit `npm start`.
+8. Kopieren Sie die Konfigurationsdateien
+    Kopieren Sie die Konfigurationsdateien in das Verzeichnis `/etc/apache2/sites-available/`.
+    ```bash
+    cd configs
+    sudo cp ./* /etc/apache2/sites-available/
+    ```
+9. Aktivieren Sie die Websites
+    Verwenden Sie den Befehl `a2ensite`, um die Konfigurationen zu aktivieren.
+    ```bash
+    sudo a2ensite home.conf
+    sudo a2ensite api.conf
+    sudo a2ensite code.conf
+    sudo service apache2 reload
+    ```
+10. Starten Sie die API mit `npm start`.
 
 Nachdem Sie diese Schritte ausgeführt haben, sollte die API laufen und bereit sein, Anfragen von Ihrer Frontend-Seite zu empfangen und zu verarbeiten. Vergewissern Sie sich, dass die in der `.env`-Datei angegebenen Datenbankinformationen korrekt sind, um eine erfolgreiche Verbindung zu gewährleisten.
