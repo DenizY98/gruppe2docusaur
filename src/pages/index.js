@@ -22,6 +22,13 @@ function HomepageHeader() {
              Smarthome Tutorial - ⏱️
           </Link>
         </div>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://yueksel.me">
+             Wordpress Website - 🖥️
+          </Link>
+        </div>
       </div>
     </header>
   );
@@ -31,8 +38,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`WWI2021A Gruppe2 ${siteConfig.title}`}
+      description="Smarthome Community Map <head />">
 
       <HomepageHeader />
       <main></main>
