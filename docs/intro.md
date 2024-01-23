@@ -73,7 +73,17 @@ Für das Festhalten der Projektergebnisse und zur besseren Nachvollziehbarkeit h
 
 Docusaurus kann auf verschiedenen Betriebssystemen installiert werden und bietet eine webbasierte Benutzeroberfläche für die Verwaltung und Erstellung von Webinhalten. Es unterstützt auch die Integration mit einer Vielzahl von Diensten und Plattformen, was seine Flexibilität und Vielseitigkeit weiter erhöht.
 
-### 7. Anforderungsanalyse
+
+### 7. Systementwurf
+Um den Systementwurf des Projektes zu erfassen und übersichtlich darzustellen, wurden die Architekturen, die Datenflüsse und die verwendeten Komponenten in den nachfolgend abgebildeten Systementwürfen festgehalten. Ersterer stellt dabei den ursprünglich geplanten und angestrebten Systemaufbau dar. Dieser unterscheidet sich jedoch bei Betrachtung deutlich von dem darunter abgebildeten finalen Systemaufbau. Im Rahmen der Umsetzung, der immer weiter klarer werdenden Anforderungen, einigen technischen Herausforderungen sowie vielen alternativen Ansätzen, ist der jetztige Systementwurf entstanden. Der letztendlich umgesetzte Systementwurf entspricht dennoch weitgehend der geplanten Architektur, mit einigen Anpassungen und Verbesserungen. Er stellt somit auch die "Reise" des Teams bei der Projektdurchführung technisch dar. 
+
+**Systementwurf (geplant)**
+<img src="/img/Projekt Set-Up (initial).png" alt="Projekt Set-Up (initial)" width=""/>
+
+**Systementwurf (final)**
+<img src="/img/Projekt Set-Up (final).png" alt="Projekt Set-Up (final)" width=""/>
+
+### 8. Anforderungsanalyse
 Der erste Projektschritt besteht in der Installation eines Raspberry PI, einschließlich eines vom Projektteam ausgearbeiteten Sicherungskonzept. Im Anschluss daran steht die Installation einer Smart-Home-Plattform auf dem Raspberry Pi. Hierfür entschied sich das Projektteam nach gründlicher Recherche für die Open-Source Smart-Home-Plattform "Home Assistant", welche nach Absprache mit dem Auftragsgeber für das Projekt fortfolgend verwendet wird.
 
 Während des Projektes werden verschiedene Aufgaben aus dem Bereich Smart-Home/Hausautomation bearbeitet. Hier steht die Automation einer Infrarotheizung sowie eines Warmwasserboilers im Vordergrund. 
@@ -141,7 +151,7 @@ aktuell erzeugte Watt
 
 Zusätzlich soll auf dieser Website eine Community Map implementiert werden, um allen Nutzern die Möglichkeit zu geben, die Ertragsdaten ihres jeweiligen Balkonkraftwerks an einer zentralen Stelle präsentieren zu können.
 
-### 8. Aufwandsschätzung
+### 9. Aufwandsschätzung
 Zu Beginn des Projekts wurden die initial sichtbaren Arbeitsschritte basierend auf den Rollen in die folgenden grundlegenden Kategorien eingeteilt und in einer Excel-Tabelle dokumentiert:
 
 - Raspberry Pi
@@ -154,7 +164,7 @@ Während der Projektlaufzeit wurden die Arbeitsschritte in diesen Kategorien ste
 
 <img src="/img/aufwandschaetzung.png" alt="Aufwandschätzung" width="400"/>
 
-### 9. Projektrisiken
+### 10. Projektrisiken
 Um ein tiefgreifendes Verständnis der Risiken des Smart-Home-Projekts zu erlangen und adäquate Reaktionsmaßnahmen zu ermöglichen, wurden potenzielle Projektrisiken mittels einer Excel-Tabelle systematisch erfasst und einer eingehenden Analyse unterzogen. Im Anschluss daran wurden die Risiken gemäß den Leitlinien des Risikomanagements des Bundesamts für Sicherheit in der Informationstechnik (BSI) hinsichtlich ihrer Eintrittswahrscheinlichkeit und potenziellen Auswirkungen auf einer Skala von 1 bis 5 bewertet. In einer separaten Spalte wurde dokumentiert, welche Strategien zur Risikobewältigung angewendet werden sollten und welche Maßnahmen dafür erforderlich sind. 
 
 <img src="/img/risikoanalyse.png" alt="Risikoanalyse" width="1000"/>

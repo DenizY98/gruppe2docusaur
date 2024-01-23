@@ -3,25 +3,48 @@ sidebar_position: 7
 ---
 
 # 3.4.7 Visualisierung
-<img src="/img/interval.png" alt="strom" width="600"/>
 
-1. **Visualisierung der Daten für den selbst erzeugten Strom:**
-    1. Aktuell produzierter Strom (Aktualisierungsintervall konfigurierbar 1 Minute)
-    2. Aktueller Tag
-    3. Vorhergehender Tag
-    4. Aktuelle Woche
-    5. Vorhergehende Woche
-    6. Aktueller Monat
-    7. Vorhergehender Monat
-    8. Aktuelles Jahr
-    9. Vorhergehendes Jahr
-<img src="/img/strom.png" alt="strom" width="600"/>
+## Szenario
 
-2. **Anzeige des zeitlichen Verlaufs des erzeugten Stroms als Balkendiagramm:**
-    1. Aktuelle Woche (Balken pro Tag)
-    2. Vorhergehende Woche (Balken pro Tag)
-    3. Aktueller Monat (Balken pro Tag)
-    4. Vorhergehender Monat (Balken pro Tag)
-    5. Aktuelles Jahr (Balken pro Monat)
-    6. Vorhergehendes Jahr (Balken pro Monat)
-<img src="/img/history.png" alt="stromverlauf" width="1000"/>
+Auf der Oberfläche der Hausautomationsoberfläche "Home Assistant" sollen zur statistischen Auswertung die Daten des erzeugten Stromes visualisiert werden
+
+
+****
+<img src="/img/3.4.7 (Aufbau).png" alt="3.4.7 (Aufbau)" width=""/> 
+****
+
+
+## Aufbau
+Die Daten der an das Balkonkraftwerk angeschlossenen Shelly werden in das Home Assistant System importiert. Für den User sind diese Daten aufbereitet in der GUI sichtbar.
+
+****
+<img src="/img/3.4.7 (Visualisierung).png" alt="3.4.7 (Visualisierung)" width=""/> 
+****
+
+
+## Visualisierung
+
+**Aktuelle Daten:**
+- aktuell produzierter Strom
+- aktueller Tag
+- vorhergehender Tag
+- aktuelle Woche
+- vorhergehende Woche
+- aktueller Monat
+- vorhergehender Monat
+- aktuelles Jahr
+- vorhergehendes Jahr
+
+**Zeitliche Verläufe als Balkendiagramme:**
+- aktuelle Woche
+- vorhergehende Woche
+- aktueller Monat
+- aktuelles Jahr
+- vorhergehendes Jahr 
+
+
+## Screenshots
+
+****
+<img src="/img/3.4.1 (Betrieb).png" alt="3.4.1 (Betrieb)" width=""/> 
+****
